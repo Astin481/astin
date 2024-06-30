@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальный сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт музыканта!</h1>
+    </header>
+    <main>
+        <section id="upload">
+            <h2>Загрузить медиа</h2>
+            <form id="uploadForm">
+                <input type="file" id="fileInput" multiple>
+                <button type="submit">Загрузить</button>
+            </form>
+        </section>
+        <section id="media">
+            <h2>Медиа файлы</h2>
+            <div id="mediaContainer"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
